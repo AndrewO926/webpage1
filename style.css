@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.firstbox{
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+}
+
+#strawhat{
+    width: 100px;
+    height: 75px;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 8px;
+}
+
+.introduction h2{
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
